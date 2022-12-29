@@ -26,8 +26,8 @@ class Program
     {
         Circle y = new Circle(); //创建实例y
         Console.WriteLine("请输入圆的半径：");
-        string s = Console.ReadLine();
-        double r = Convert.ToDouble(s);
+       // string s = Console.ReadLine();
+        double r = Convert.ToDouble(Console.ReadLine());
         y.setradius(r); //设置半径为5.0
         Console.WriteLine("半径:{0} ", y.getradius());
         Console.WriteLine("面积:{0} ", y.area());
