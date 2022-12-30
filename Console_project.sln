@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console_project", "Console_project\Console_project.csproj", "{AF52ACDB-D46E-47B5-A95A-918605196444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "Console_project\test.csproj", "{AF52ACDB-D46E-47B5-A95A-918605196444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "选择结构", "选择结构\选择结构.csproj", "{2FCA6F41-AC5D-4FE7-B289-1CB77E79CF3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "选择结构", "选择结构\选择结构.csproj", "{2FCA6F41-AC5D-4FE7-B289-1CB77E79CF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据类型与表达式", "数据类型与表达式\数据类型与表达式.csproj", "{B9EFA58B-303F-491A-ACBB-79EBECF9CB53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2FCA6F41-AC5D-4FE7-B289-1CB77E79CF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCA6F41-AC5D-4FE7-B289-1CB77E79CF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCA6F41-AC5D-4FE7-B289-1CB77E79CF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EFA58B-303F-491A-ACBB-79EBECF9CB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EFA58B-303F-491A-ACBB-79EBECF9CB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EFA58B-303F-491A-ACBB-79EBECF9CB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EFA58B-303F-491A-ACBB-79EBECF9CB53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
