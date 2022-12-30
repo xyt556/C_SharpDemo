@@ -63,4 +63,42 @@ namespace expressions
             c1, c2, c3, c4);
         }
     }
+
+    class Utol
+    {
+        private char ch;
+        public void voidutol(char ch)
+        {
+            
+            if (ch >= 'A' && ch <= 'Z')
+            {
+                ch = (char)(ch - 'A' + 'a');
+                Console.WriteLine("将大写转换为小写后，该字母为：{0}", ch);
+            }
+            else
+            {
+                Console.WriteLine("您输入的不是大写字母，无法转换");
+            }
+                
+            
+        }
+        
+    }
+    class Check
+    {
+        private int n;
+        public void check(int n)
+        {
+            
+            //d1,d2,d3,d4分别用来表示各位数字
+            int d1 = n / 1000;// 千位
+            int d2 = n / 100 % 10;// 百位
+            int d3 = n / 10 % 10;// 十位
+            int d4 = n % 10;// 个位
+            if (d1 == d4 && d2 == d3)
+                Console.WriteLine("该数是回文数");
+            else
+                Console.WriteLine("该数不是回文数");
+        }
+    }
 }
