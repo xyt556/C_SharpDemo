@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "圆的面积玉周长", "Console_project\圆的面积玉周长.csproj", "{AF52ACDB-D46E-47B5-A95A-918605196444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "圆的面积与周长", "Console_project\圆的面积与周长.csproj", "{AF52ACDB-D46E-47B5-A95A-918605196444}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "选择结构", "选择结构\选择结构.csproj", "{2FCA6F41-AC5D-4FE7-B289-1CB77E79CF3F}"
 EndProject
