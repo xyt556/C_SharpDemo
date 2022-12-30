@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "阶乘", "阶乘\阶乘.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "一维数组", "一维数组\一维数组.csproj", "{D53EC696-74B4-4DE3-9FF4-F94BB93030BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组求和", "数组求和\数组求和.csproj", "{C54E066F-A661-4A8F-9181-D62EC5FC224D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "杨辉三角", "杨辉三角\杨辉三角.csproj", "{48E0C82A-D579-4C91-AF41-2BD045092202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{D53EC696-74B4-4DE3-9FF4-F94BB93030BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53EC696-74B4-4DE3-9FF4-F94BB93030BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53EC696-74B4-4DE3-9FF4-F94BB93030BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54E066F-A661-4A8F-9181-D62EC5FC224D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54E066F-A661-4A8F-9181-D62EC5FC224D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54E066F-A661-4A8F-9181-D62EC5FC224D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54E066F-A661-4A8F-9181-D62EC5FC224D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E0C82A-D579-4C91-AF41-2BD045092202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E0C82A-D579-4C91-AF41-2BD045092202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E0C82A-D579-4C91-AF41-2BD045092202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E0C82A-D579-4C91-AF41-2BD045092202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
