@@ -40,8 +40,8 @@ class progress
         // 判断一个数是否是回文数
         Check chec = new Check();
         Console.Write("请输入一个四位的整数：");
-        int m = Convert.ToInt32(Console.ReadLine());
-        chec.check(m);
+        int data = Convert.ToInt32(Console.ReadLine());
+        chec.check(data);
 
 
     }
