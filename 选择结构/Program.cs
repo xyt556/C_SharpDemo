@@ -6,6 +6,7 @@ class if_1
     static void Main(string[] args)
     {
         double x, y;
+        int z;
         Console.WriteLine("请输入x的值: ");
         x = Convert.ToDouble(Console.ReadLine());
         if (x < 0)
