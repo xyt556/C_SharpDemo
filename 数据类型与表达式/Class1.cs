@@ -20,9 +20,9 @@ class progress
         Console.WriteLine("周长:{0} ", y.length());
         // 计算三角形的面积和周长
         Tri_Area t = new Tri_Area();
-        Console.Write("请输入（以英文逗号分割）a, b, c = ");
+        Console.Write("请输入（以空格分割）a, b, c = ");
         string inS = Console.ReadLine();
-        string[] inSS = inS.Split(',');
+        string[] inSS = inS.Split(' ');
         double a = Convert.ToDouble(inSS[0]);
         double b = Convert.ToDouble(inSS[1]);
         double c = Convert.ToDouble(inSS[2]);
