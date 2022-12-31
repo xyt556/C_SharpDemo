@@ -1,6 +1,6 @@
 ﻿using System;
 
-
+// 打印九九乘法表
 namespace cal
 {
     class cal
