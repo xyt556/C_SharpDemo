@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数位分离", "数位分�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多项式计算", "多项式计算\多项式计算.csproj", "{AAC42BAB-7181-4E7A-B7AA-C664CEA51561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "鸡兔同笼", "鸡兔同笼\鸡兔同笼.csproj", "{0F386156-E6EA-435A-A0ED-7A18A3ABAC40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "鸡兔同笼", "鸡兔同笼\鸡兔同笼.csproj", "{0F386156-E6EA-435A-A0ED-7A18A3ABAC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业问题", "作业问题\作业问题.csproj", "{6339185F-0E75-4705-8EB2-7317F6692471}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{0F386156-E6EA-435A-A0ED-7A18A3ABAC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F386156-E6EA-435A-A0ED-7A18A3ABAC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F386156-E6EA-435A-A0ED-7A18A3ABAC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6339185F-0E75-4705-8EB2-7317F6692471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6339185F-0E75-4705-8EB2-7317F6692471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6339185F-0E75-4705-8EB2-7317F6692471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6339185F-0E75-4705-8EB2-7317F6692471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
