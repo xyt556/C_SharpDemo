@@ -91,13 +91,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "五猴分桃", "五猴分�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "幸运数字", "幸运数字\幸运数字.csproj", "{D82D75ED-7988-4795-BC5F-897520BFC016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "面积计算", "面积计算\面积计算.csproj", "{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "水仙花", "水仙花\水仙花.csproj", "{95F270DF-6603-47BC-A487-924C420E122A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求建筑高度", "求建筑高度\求建筑高度.csproj", "{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "完全数-方法", "完全数-方法\完全数-方法.csproj", "{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多边形面积计算", "多边形面积计算\多边形面积计算.csproj", "{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -459,14 +459,6 @@ Global
 		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|x86.ActiveCfg = Release|Any CPU
 		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|x86.Build.0 = Release|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Debug|x86.Build.0 = Debug|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Release|x86.ActiveCfg = Release|Any CPU
-		{8BB29A8E-237E-48D8-A206-DB6BB2CC8EC0}.Release|x86.Build.0 = Release|Any CPU
 		{95F270DF-6603-47BC-A487-924C420E122A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95F270DF-6603-47BC-A487-924C420E122A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F270DF-6603-47BC-A487-924C420E122A}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -491,6 +483,14 @@ Global
 		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|x86.ActiveCfg = Release|Any CPU
 		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|x86.Build.0 = Release|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

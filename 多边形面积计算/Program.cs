@@ -9,7 +9,6 @@ sample_output:
 1.00
 本题主要难点在于知道正N边形的面积计算公式。
 S=N* R/2 * R/2/Math.Tan(3.14/N)*/
-using Microsoft.VisualBasic;
 using System;
 class pro
 {
@@ -18,13 +17,13 @@ class pro
         string t;
         t = Console.ReadLine();
         string[] st = t.Split(' ');
-        int N, R;
-        N = Convert.ToInt32(st[0]);
-        R = Convert.ToInt32(st[1]);
-        if (n == 3) console.writeline("{0:f2}", math.sqrt(3 * r * r / 4));
-        if (n == 4) console.writeline("{0:f2}", r * r);
-        if (n == 5) console.writeline("{0:f2}", 1.72 * r * r);
-        if (n == 6) console.writeline("{0:f2}", math.sqrt(3) * r * r * 1.5);
+        int n, r;
+        n = Convert.ToInt32(st[0]);
+        r = Convert.ToInt32(st[1]);
+        if (n == 3) Console.WriteLine("{0:f2}", Math.Sqrt(3 * r * r / 4));
+        if (n == 4) Console.WriteLine("{0:f2}", r * r);
+        if (n == 5) Console.WriteLine("{0:f2}", 1.72 * r * r);
+        if (n == 6) Console.WriteLine("{0:f2}", Math.Sqrt(3) * r * r * 1.5);
         // 或者
         // Console.WriteLine("{0:f2}", N * R / 2 * R / 2 / Math.Tan(3.14 / N));
     }
