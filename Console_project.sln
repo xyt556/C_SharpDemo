@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打印菱形", "打印菱�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求s的值", "求s的值\求s的值.csproj", "{D44A6D88-553B-4111-A8C0-05F1A4911F03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "截钢管", "截钢管\截钢管.csproj", "{4D69B73F-8C7C-4EB0-B101-836F3B42574D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -371,6 +373,14 @@ Global
 		{D44A6D88-553B-4111-A8C0-05F1A4911F03}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D44A6D88-553B-4111-A8C0-05F1A4911F03}.Release|x86.ActiveCfg = Release|Any CPU
 		{D44A6D88-553B-4111-A8C0-05F1A4911F03}.Release|x86.Build.0 = Release|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
