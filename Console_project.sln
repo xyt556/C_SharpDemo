@@ -65,7 +65,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "菜单和计时器", "C:\Us
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "质因子", "质因子\质因子.csproj", "{EC6882F9-1BB4-46BD-8F67-D4994ACA6AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "整理文字", "整理文字\整理文字.csproj", "{9D6B1871-1F7A-427F-A79F-65060D84C0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "整理文字", "整理文字\整理文字.csproj", "{9D6B1871-1F7A-427F-A79F-65060D84C0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打印三角形", "打印三角形\打印三角形.csproj", "{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -331,6 +333,14 @@ Global
 		{9D6B1871-1F7A-427F-A79F-65060D84C0B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9D6B1871-1F7A-427F-A79F-65060D84C0B5}.Release|x86.ActiveCfg = Release|Any CPU
 		{9D6B1871-1F7A-427F-A79F-65060D84C0B5}.Release|x86.Build.0 = Release|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Debug|x86.Build.0 = Debug|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Release|x86.ActiveCfg = Release|Any CPU
+		{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
