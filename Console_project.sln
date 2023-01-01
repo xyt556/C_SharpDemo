@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最次方数", "最次方�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "五猴分桃", "五猴分桃\五猴分桃.csproj", "{5E40445C-8C49-4741-A020-4623205309C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "幸运数字", "幸运数字\幸运数字.csproj", "{D82D75ED-7988-4795-BC5F-897520BFC016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,14 @@ Global
 		{5E40445C-8C49-4741-A020-4623205309C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E40445C-8C49-4741-A020-4623205309C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{5E40445C-8C49-4741-A020-4623205309C7}.Release|x86.Build.0 = Release|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Debug|x86.Build.0 = Debug|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|x86.ActiveCfg = Release|Any CPU
+		{D82D75ED-7988-4795-BC5F-897520BFC016}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
