@@ -15,6 +15,7 @@ class pro
     static void Main()
     {
         double sum = 1, e = 1, cnt = 1;//第一项作为循环初始状态
+        Console.WriteLine("While 循环实现：");
         while (e >= 0.00001)
         {
             cnt++;
@@ -22,5 +23,14 @@ class pro
             sum = sum + e;
         }
         Console.WriteLine("{0:f6}", sum);
+        Console.WriteLine("For 循环实现：");
+        sum = 0; e = 1;
+        for (int i = 1; i <= 10; i++)
+        {
+            e = e / i;
+            sum = sum + e;
+        }
+        Console.WriteLine("{0:f6}", sum);
+
     }
 }
