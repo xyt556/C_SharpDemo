@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "哥德巴赫猜想", "哥�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "整数位数", "整数位数\整数位数.csproj", "{C59DD3AC-2751-4444-845A-2A835B922FC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最次方数", "最次方数\最次方数.csproj", "{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -421,6 +423,14 @@ Global
 		{C59DD3AC-2751-4444-845A-2A835B922FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C59DD3AC-2751-4444-845A-2A835B922FC3}.Release|x86.ActiveCfg = Release|Any CPU
 		{C59DD3AC-2751-4444-845A-2A835B922FC3}.Release|x86.Build.0 = Release|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
