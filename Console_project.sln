@@ -67,17 +67,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "质因子", "质因子\质�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "整理文字", "整理文字\整理文字.csproj", "{9D6B1871-1F7A-427F-A79F-65060D84C0B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打印三角形", "打印三角形\打印三角形.csproj", "{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "打印三角形", "打印三角形\打印三角形.csproj", "{9CD07D67-FF7E-4DD2-824D-0D08ECC4B751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "切割纸板", "切割纸板\切割纸板.csproj", "{17836433-58A6-4B82-8CAA-D65BEA55E3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "切割纸板", "切割纸板\切割纸板.csproj", "{17836433-58A6-4B82-8CAA-D65BEA55E3ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打印菱形", "打印菱形\打印菱形.csproj", "{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "打印菱形", "打印菱形\打印菱形.csproj", "{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求s的值", "求s的值\求s的值.csproj", "{D44A6D88-553B-4111-A8C0-05F1A4911F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "求s的值", "求s的值\求s的值.csproj", "{D44A6D88-553B-4111-A8C0-05F1A4911F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "截钢管", "截钢管\截钢管.csproj", "{4D69B73F-8C7C-4EB0-B101-836F3B42574D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "截钢管", "截钢管\截钢管.csproj", "{4D69B73F-8C7C-4EB0-B101-836F3B42574D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两个数的平方和", "两个数的平方和\两个数的平方和.csproj", "{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两个数的平方和", "两个数的平方和\两个数的平方和.csproj", "{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字母金字塔", "字母金字塔\字母金字塔.csproj", "{5F385393-9D76-4DAA-BA59-35E4622E687B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -391,6 +393,14 @@ Global
 		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|x86.Build.0 = Release|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F385393-9D76-4DAA-BA59-35E4622E687B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
