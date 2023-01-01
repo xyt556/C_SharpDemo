@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求s的值", "求s的值\�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "截钢管", "截钢管\截钢管.csproj", "{4D69B73F-8C7C-4EB0-B101-836F3B42574D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两个数的平方和", "两个数的平方和\两个数的平方和.csproj", "{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,14 @@ Global
 		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D69B73F-8C7C-4EB0-B101-836F3B42574D}.Release|x86.Build.0 = Release|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
