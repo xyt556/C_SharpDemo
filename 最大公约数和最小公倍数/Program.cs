@@ -6,7 +6,8 @@ Output: 输出M和N的最大公约数和最小公倍数，用空格隔开。
 sample_input:
 10 15
 sample_output:
-5 30
+5
+30
 本题考查数学知识在编程中的实现：
 求最大公约数可以使用枚举法、辗转相除法等；
 求最小公倍数可以使用枚举法、乘积除以最大公约数等；*/
@@ -36,8 +37,8 @@ class pro
         int m, n;
         m = Convert.ToInt32(Console.ReadLine());
         n = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("{ 0}和{1}的最大公约数是:{2}", m, n, gcd(m, n));
-        Console.WriteLine("{ 0}和{1}的最小公倍数数是:{2}", m, n, lcm(m, n));
+        Console.WriteLine("{0}和{1}的最大公约数是:{2}", m, n, gcd(m, n));
+        Console.WriteLine("{0}和{1}的最小公倍数数是:{2}", m, n, lcm(m, n));
     }
 
 }
