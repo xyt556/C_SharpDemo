@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "水仙花", "水仙花\水�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求建筑高度", "求建筑高度\求建筑高度.csproj", "{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "完全数-方法", "完全数-方法\完全数-方法.csproj", "{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -481,6 +483,14 @@ Global
 		{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}.Release|x86.ActiveCfg = Release|Any CPU
 		{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}.Release|x86.Build.0 = Release|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
