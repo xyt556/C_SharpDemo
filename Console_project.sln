@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打印三角形", "打印�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "切割纸板", "切割纸板\切割纸板.csproj", "{17836433-58A6-4B82-8CAA-D65BEA55E3ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打印菱形", "打印菱形\打印菱形.csproj", "{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,14 @@ Global
 		{17836433-58A6-4B82-8CAA-D65BEA55E3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17836433-58A6-4B82-8CAA-D65BEA55E3ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{17836433-58A6-4B82-8CAA-D65BEA55E3ED}.Release|x86.Build.0 = Release|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Debug|x86.Build.0 = Debug|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA257B6E-DBAA-427A-8F5C-D79DD09881B5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
