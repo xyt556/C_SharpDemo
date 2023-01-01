@@ -99,6 +99,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "完全数-方法", "完全�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多边形面积计算", "多边形面积计算\多边形面积计算.csproj", "{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "阶乘-方法", "阶乘-方法\阶乘-方法.csproj", "{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最大公约数和最小公倍数", "最大公约数和最小公倍数\最大公约数和最小公倍数.csproj", "{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -491,6 +495,22 @@ Global
 		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|x86.ActiveCfg = Release|Any CPU
 		{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}.Release|x86.Build.0 = Release|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Debug|x86.Build.0 = Debug|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}.Release|x86.Build.0 = Release|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Debug|x86.Build.0 = Debug|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|x86.ActiveCfg = Release|Any CPU
+		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
