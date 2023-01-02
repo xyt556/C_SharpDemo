@@ -79,29 +79,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "截钢管", "截钢管\截�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两个数的平方和", "两个数的平方和\两个数的平方和.csproj", "{BC23B672-654A-48C2-8DC6-2DF368BDCEC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字母金字塔", "字母金字塔\字母金字塔.csproj", "{5F385393-9D76-4DAA-BA59-35E4622E687B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "字母金字塔", "字母金字塔\字母金字塔.csproj", "{5F385393-9D76-4DAA-BA59-35E4622E687B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "哥德巴赫猜想", "哥德巴赫猜想\哥德巴赫猜想.csproj", "{E805908B-E76B-4A2C-8245-ADE0A8DD18AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "哥德巴赫猜想", "哥德巴赫猜想\哥德巴赫猜想.csproj", "{E805908B-E76B-4A2C-8245-ADE0A8DD18AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "整数位数", "整数位数\整数位数.csproj", "{C59DD3AC-2751-4444-845A-2A835B922FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "整数位数", "整数位数\整数位数.csproj", "{C59DD3AC-2751-4444-845A-2A835B922FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最次方数", "最次方数\最次方数.csproj", "{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "最次方数", "最次方数\最次方数.csproj", "{0FCC7889-20DE-4E04-A569-D90DEB9F2AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "五猴分桃", "五猴分桃\五猴分桃.csproj", "{5E40445C-8C49-4741-A020-4623205309C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "五猴分桃", "五猴分桃\五猴分桃.csproj", "{5E40445C-8C49-4741-A020-4623205309C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "幸运数字", "幸运数字\幸运数字.csproj", "{D82D75ED-7988-4795-BC5F-897520BFC016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "幸运数字", "幸运数字\幸运数字.csproj", "{D82D75ED-7988-4795-BC5F-897520BFC016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "水仙花", "水仙花\水仙花.csproj", "{95F270DF-6603-47BC-A487-924C420E122A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "水仙花", "水仙花\水仙花.csproj", "{95F270DF-6603-47BC-A487-924C420E122A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求建筑高度", "求建筑高度\求建筑高度.csproj", "{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "求建筑高度", "求建筑高度\求建筑高度.csproj", "{E9640058-49F9-4F56-9C7C-1E57EEDD03F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "完全数-方法", "完全数-方法\完全数-方法.csproj", "{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "完全数-方法", "完全数-方法\完全数-方法.csproj", "{5ADCEDE6-83CA-4C4F-9C7D-722754E1B02B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多边形面积计算", "多边形面积计算\多边形面积计算.csproj", "{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多边形面积计算", "多边形面积计算\多边形面积计算.csproj", "{C3FF2C65-7A2E-4392-B0D7-BF562DCB00B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "阶乘-方法", "阶乘-方法\阶乘-方法.csproj", "{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "阶乘-方法", "阶乘-方法\阶乘-方法.csproj", "{AA90407D-E0A5-4C99-AAFB-1EBE6F6EBB7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最大公约数和最小公倍数", "最大公约数和最小公倍数\最大公约数和最小公倍数.csproj", "{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "最大公约数和最小公倍数", "最大公约数和最小公倍数\最大公约数和最小公倍数.csproj", "{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "分馒头", "分馒头\分馒头.csproj", "{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -511,6 +513,14 @@ Global
 		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E8FA162-DA0C-4D65-83EB-64CB1DEEC733}.Release|x86.Build.0 = Release|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2FE9EE9-5745-4D82-A1BE-2530C63B05A9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
