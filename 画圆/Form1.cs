@@ -14,7 +14,9 @@ namespace 画圆
             Graphics gra = this.CreateGraphics();
             Brush bush = new SolidBrush(Color.Blue);
             //设置圆的填充色为蓝色
+            
             gra.FillEllipse(bush, 0, 0, 2 * r, 2 * r);//画圆
+            
         }
     }
 }
