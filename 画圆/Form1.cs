@@ -22,10 +22,10 @@ namespace 画圆
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Graphics gra = this.CreateGraphics();
-            Font myFont = new Font("宋体", 60, FontStyle.Bold);
+            Graphics gra = this.pictureBox1.CreateGraphics();
+            Font myFont = new Font("宋体", 20, FontStyle.Bold);
             Brush bush = new SolidBrush(Color.Red);//填充的颜色
-            gra.DrawString("欢迎！", myFont, bush, 300, 300);
+            gra.DrawString("欢迎！", myFont, bush, 0, 0);
         }
     }
 }
