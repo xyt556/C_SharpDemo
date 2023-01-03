@@ -24,6 +24,7 @@ namespace 画圆
         private void button2_Click(object sender, EventArgs e)
         {
             Graphics gra = this.pictureBox1.CreateGraphics();
+            gra.Clear(this.pictureBox1.BackColor);
             Font myFont = new Font("宋体", 20, FontStyle.Bold);
             Brush bush = new SolidBrush(colorDialog1.Color);//填充的颜色
             gra.DrawString("欢迎！", textBox1.Font, bush, 0, 0);
