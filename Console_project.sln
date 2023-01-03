@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "画圆", "画圆\画圆.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "产生随机数", "产生随机数\产生随机数.csproj", "{3E68E99C-71FB-4071-A286-3C0EDA846DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最大公约数最大公倍数-窗体", "最大公约数最大公倍数-窗体\最大公约数最大公倍数-窗体.csproj", "{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -561,6 +563,14 @@ Global
 		{3E68E99C-71FB-4071-A286-3C0EDA846DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E68E99C-71FB-4071-A286-3C0EDA846DD1}.Release|x86.ActiveCfg = Release|Any CPU
 		{3E68E99C-71FB-4071-A286-3C0EDA846DD1}.Release|x86.Build.0 = Release|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Debug|x86.Build.0 = Debug|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Release|x86.ActiveCfg = Release|Any CPU
+		{39760C7F-B2B1-4652-9B2E-E83636C4DE5B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
