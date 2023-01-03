@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求数列之和", "求数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "发车问题", "发车问题\发车问题.csproj", "{C664C1E8-84F7-4205-94CB-EAB8E3D6EEA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "画圆", "画圆\画圆.csproj", "{F5188A7C-041D-4960-B037-5A92D0C20226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -541,6 +543,14 @@ Global
 		{C664C1E8-84F7-4205-94CB-EAB8E3D6EEA0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C664C1E8-84F7-4205-94CB-EAB8E3D6EEA0}.Release|x86.ActiveCfg = Release|Any CPU
 		{C664C1E8-84F7-4205-94CB-EAB8E3D6EEA0}.Release|x86.Build.0 = Release|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Debug|x86.Build.0 = Debug|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Release|x86.ActiveCfg = Release|Any CPU
+		{F5188A7C-041D-4960-B037-5A92D0C20226}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
