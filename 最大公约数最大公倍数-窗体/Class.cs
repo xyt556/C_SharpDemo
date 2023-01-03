@@ -24,6 +24,8 @@ namespace Gcd
             for (int i = m > n ? m : n; i <= m * n; i++)
                 if (i % m == 0 && i % n == 0) return i;
             return m * n;
+
         }
     }
 }
+
