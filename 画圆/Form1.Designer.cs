@@ -35,6 +35,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.button3 = new System.Windows.Forms.Button();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,7 +68,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(600, 322);
+            this.button2.Location = new System.Drawing.Point(633, 322);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
@@ -88,9 +89,9 @@
             // 
             this.button3.Location = new System.Drawing.Point(519, 322);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(97, 23);
             this.button3.TabIndex = 5;
-            this.button3.Text = "设置颜色";
+            this.button3.Text = "设置颜色&字体";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -122,5 +123,6 @@
         private PictureBox pictureBox1;
         private ColorDialog colorDialog1;
         private Button button3;
+        private FontDialog fontDialog1;
     }
 }

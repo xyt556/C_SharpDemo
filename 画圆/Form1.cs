@@ -26,19 +26,24 @@ namespace 画圆
             Graphics gra = this.pictureBox1.CreateGraphics();
             Font myFont = new Font("宋体", 20, FontStyle.Bold);
             Brush bush = new SolidBrush(colorDialog1.Color);//填充的颜色
-            gra.DrawString("欢迎！", myFont, bush, 0, 0);
+            gra.DrawString("欢迎！", textBox1.Font, bush, 0, 0);
         }
         private void button3_Click(object sender, EventArgs e)
         {
             {
                 //显示颜色对话框
                 DialogResult dr = colorDialog1.ShowDialog();
+                DialogResult df = fontDialog1.ShowDialog();
                 //如果选中颜色，单击“确定”按钮则改变文本框的文本颜色
                 if (dr == DialogResult.OK)
                 {
                     textBox1.ForeColor = colorDialog1.Color;
+                    textBox1.Font = fontDialog1.Font;
                 }
-
+                if (df== DialogResult.OK)
+                {
+                    textBox1.Font = fontDialog1.Font;
+                }
             }
         }
     }
