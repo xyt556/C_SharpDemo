@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -94,6 +95,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox3.Location = new System.Drawing.Point(140, 91);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
@@ -101,6 +103,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox4.Location = new System.Drawing.Point(140, 120);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 23);
@@ -142,6 +145,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "求最大公约数和最小公倍数";
             this.Load += new System.EventHandler(this.Form1_Load);
