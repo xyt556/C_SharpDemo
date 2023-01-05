@@ -13,5 +13,6 @@ namespace 画圆
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+        
     }
 }

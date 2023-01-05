@@ -43,6 +43,7 @@ namespace 最大公约数最大公倍数_窗体
             Pro gc = new Pro();
             this.textBox3.Text = Convert.ToString(gc.gcd(m, n));
             this.textBox4.Text = Convert.ToString(gc.lcm(m, n));
+            
         }
     }
 }
