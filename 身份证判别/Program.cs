@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*身份证判别性别
+*/
+using System;
 class pro
 {
     static void Main(string[] args)
@@ -25,7 +27,7 @@ class pro
         }
         else
         {
-            Console.WriteLine("此人为男性");
+            Console.WriteLine("此人为男性！");
         }
     }
 }
