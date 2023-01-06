@@ -12,7 +12,6 @@ class pro
         do
         {
             s = Console.ReadLine();
-            if (s.Length == 18)
             {
                 Console.WriteLine("输入正确，进入性别判别！");
                 break;
@@ -21,13 +20,11 @@ class pro
         } while (s.Length != 18);
         x = int.Parse(s.Substring(16, 1));
         Console.WriteLine("第17位是：{0}", x);
-        if (x % 2 == 0)
         {
             Console.WriteLine("此人为女性！");
         }
         else
         {
-            Console.WriteLine("此人为男性！");
         }
     }
 }
