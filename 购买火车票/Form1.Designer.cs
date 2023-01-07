@@ -45,7 +45,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 72);
+            this.label1.Location = new System.Drawing.Point(38, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // textMonth
             // 
-            this.textMonth.Location = new System.Drawing.Point(165, 69);
+            this.textMonth.Location = new System.Drawing.Point(88, 15);
             this.textMonth.MaxLength = 2;
             this.textMonth.Name = "textMonth";
             this.textMonth.Size = new System.Drawing.Size(100, 23);
@@ -65,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 115);
+            this.label2.Location = new System.Drawing.Point(14, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             // textPerson
             // 
-            this.textPerson.Location = new System.Drawing.Point(165, 112);
+            this.textPerson.Location = new System.Drawing.Point(88, 58);
             this.textPerson.Name = "textPerson";
             this.textPerson.Size = new System.Drawing.Size(100, 23);
             this.textPerson.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             this.groupBox1.Controls.Add(this.radioNo);
             this.groupBox1.Controls.Add(this.radioYes);
-            this.groupBox1.Location = new System.Drawing.Point(115, 194);
+            this.groupBox1.Location = new System.Drawing.Point(38, 140);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(165, 87);
             this.groupBox1.TabIndex = 4;
@@ -114,7 +114,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(115, 158);
+            this.label3.Location = new System.Drawing.Point(38, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 17);
             this.label3.TabIndex = 5;
@@ -122,7 +122,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(89, 300);
+            this.button1.Location = new System.Drawing.Point(12, 246);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -132,14 +132,14 @@
             // 
             // textSum
             // 
-            this.textSum.Location = new System.Drawing.Point(180, 300);
+            this.textSum.Location = new System.Drawing.Point(103, 246);
             this.textSum.Name = "textSum";
             this.textSum.Size = new System.Drawing.Size(100, 23);
             this.textSum.TabIndex = 7;
             // 
             // textPrice
             // 
-            this.textPrice.Location = new System.Drawing.Point(165, 155);
+            this.textPrice.Location = new System.Drawing.Point(88, 101);
             this.textPrice.Name = "textPrice";
             this.textPrice.Size = new System.Drawing.Size(100, 23);
             this.textPrice.TabIndex = 8;
@@ -148,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(461, 373);
+            this.ClientSize = new System.Drawing.Size(222, 280);
             this.Controls.Add(this.textPrice);
             this.Controls.Add(this.textSum);
             this.Controls.Add(this.button1);

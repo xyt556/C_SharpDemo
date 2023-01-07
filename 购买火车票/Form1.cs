@@ -38,11 +38,10 @@ namespace 购买火车票
                 {
                     rate1 = 1;
                     rate2 = 1;
-
                 }
             }
-           
-            sumprice=price*num*rate1*rate2;
+
+            sumprice = price * num * rate1 * rate2;
             textSum.Text = sumprice.ToString();
         }
 
@@ -52,7 +51,7 @@ namespace 购买火车票
                 textMonth.Text = 0.ToString();*/
             int number = int.Parse(textMonth.Text);
             textMonth.Text = number.ToString();
-            if (number <= 12 && number>=1)
+            if (number <= 12 && number >= 1)
             {
                 return;
             }
@@ -60,7 +59,7 @@ namespace 购买火车票
             {
                 MessageBox.Show("输入月份无效，请重新输入！");
             }
-            textMonth.Text = textMonth.Text.Remove(2);
+            textMonth.Text = textMonth.Text.Remove(1);
             textMonth.SelectionStart = textMonth.Text.Length;
         }
 
