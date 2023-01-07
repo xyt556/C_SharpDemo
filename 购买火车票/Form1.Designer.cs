@@ -82,7 +82,7 @@
             // 
             this.groupBox1.Controls.Add(this.radioNo);
             this.groupBox1.Controls.Add(this.radioYes);
-            this.groupBox1.Location = new System.Drawing.Point(38, 140);
+            this.groupBox1.Location = new System.Drawing.Point(204, 43);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(165, 87);
             this.groupBox1.TabIndex = 4;
@@ -122,7 +122,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 246);
+            this.button1.Location = new System.Drawing.Point(178, 149);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -132,7 +132,7 @@
             // 
             // textSum
             // 
-            this.textSum.Location = new System.Drawing.Point(103, 246);
+            this.textSum.Location = new System.Drawing.Point(269, 149);
             this.textSum.Name = "textSum";
             this.textSum.Size = new System.Drawing.Size(100, 23);
             this.textSum.TabIndex = 7;
@@ -148,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(222, 280);
+            this.ClientSize = new System.Drawing.Size(436, 194);
             this.Controls.Add(this.textPrice);
             this.Controls.Add(this.textSum);
             this.Controls.Add(this.button1);
