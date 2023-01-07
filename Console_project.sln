@@ -121,6 +121,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "奇偶数判定", "奇偶�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "购买火车票", "购买火车票\购买火车票.csproj", "{C2249C7A-F1A1-4A88-84A8-E6413BA52EB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{48E133C3-0102-4C02-B4CB-F8A066567E73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -601,6 +603,14 @@ Global
 		{C2249C7A-F1A1-4A88-84A8-E6413BA52EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C2249C7A-F1A1-4A88-84A8-E6413BA52EB0}.Release|x86.ActiveCfg = Release|Any CPU
 		{C2249C7A-F1A1-4A88-84A8-E6413BA52EB0}.Release|x86.Build.0 = Release|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Debug|x86.Build.0 = Debug|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|x86.ActiveCfg = Release|Any CPU
+		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
