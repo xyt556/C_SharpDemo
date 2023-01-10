@@ -119,9 +119,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "身份证判别", "身份�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "奇偶数判定", "奇偶数判定\奇偶数判定.csproj", "{B7CD9F73-9214-433F-B2E7-C105E0B066A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "购买火车票", "购买火车票\购买火车票.csproj", "{C2249C7A-F1A1-4A88-84A8-E6413BA52EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "购买火车票", "购买火车票\购买火车票.csproj", "{C2249C7A-F1A1-4A88-84A8-E6413BA52EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{48E133C3-0102-4C02-B4CB-F8A066567E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{48E133C3-0102-4C02-B4CB-F8A066567E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二进制读写", "二进制读写\二进制读写.csproj", "{CEE1B94C-A19C-472C-A882-C7B46A2237CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -611,6 +613,14 @@ Global
 		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|x86.ActiveCfg = Release|Any CPU
 		{48E133C3-0102-4C02-B4CB-F8A066567E73}.Release|x86.Build.0 = Release|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
