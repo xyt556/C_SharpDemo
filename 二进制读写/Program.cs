@@ -1,4 +1,4 @@
-锘縰sing System;
+using System;
 using System.IO;
 
 namespace BinaryFileApplication
@@ -13,17 +13,18 @@ namespace BinaryFileApplication
             double d = 3.14157;
             bool b = true;
             string s = ";I am happy"; ;
-            // 鍒涘缓鏂囦欢
+            // 创建文件
             try
             {
-                bw = new BinaryWriter(new FileStream(";mydata",FileMode.Create));
+                bw = new BinaryWriter(new FileStream(";mydata",
+                FileMode.Create));
             }
             catch (IOException e)
             {
-                Console.WriteLine(e.Message + ";\n Cannot create file.");
+                Console.WriteLine(e.Message + "\n Cannot create file.");
                 return;
             }
-            // 鍐欏叆鏂囦欢
+            // 写入文件
             try
             {
                 bw.Write(i);
@@ -33,20 +34,20 @@ namespace BinaryFileApplication
             }
             catch (IOException e)
             {
-                Console.WriteLine(e.Message + ";\n Cannot write to file.");
+                Console.WriteLine(e.Message + "\n Cannot write to file.");
                 return;
             }
 
             bw.Close();
-            // 璇诲彇鏂囦欢
+            // 读取文件
             try
             {
-                br = new BinaryReader(new FileStream(";mydata",
+                br = new BinaryReader(new FileStream("mydata",
                 FileMode.Open));
             }
             catch (IOException e)
             {
-                Console.WriteLine(e.Message + ";\n Cannot open file.");
+                Console.WriteLine(e.Message + "\n Cannot open file.");
                 return;
             }
             try
@@ -62,7 +63,7 @@ namespace BinaryFileApplication
             }
             catch (IOException e)
             {
-                Console.WriteLine(e.Message + ";\n Cannot read from file.");
+                Console.WriteLine(e.Message + "\n Cannot read from file.");
                 return;
             }
             br.Close();
