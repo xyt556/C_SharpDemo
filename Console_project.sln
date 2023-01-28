@@ -123,7 +123,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "购买火车票", "购买�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{48E133C3-0102-4C02-B4CB-F8A066567E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二进制读写", "二进制读写\二进制读写.csproj", "{CEE1B94C-A19C-472C-A882-C7B46A2237CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二进制读写", "二进制读写\二进制读写.csproj", "{CEE1B94C-A19C-472C-A882-C7B46A2237CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "一个简单类的示例", "一个简单类的示例\一个简单类的示例.csproj", "{49C227B5-B239-4544-B2E5-E9EBBB28CC91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -621,6 +623,14 @@ Global
 		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{CEE1B94C-A19C-472C-A882-C7B46A2237CE}.Release|x86.Build.0 = Release|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Debug|x86.Build.0 = Debug|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|x86.ActiveCfg = Release|Any CPU
+		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
