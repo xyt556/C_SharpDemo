@@ -125,7 +125,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二进制读写", "二进制读写\二进制读写.csproj", "{CEE1B94C-A19C-472C-A882-C7B46A2237CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "一个简单类的示例", "一个简单类的示例\一个简单类的示例.csproj", "{49C227B5-B239-4544-B2E5-E9EBBB28CC91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "一个简单类的示例", "一个简单类的示例\一个简单类的示例.csproj", "{49C227B5-B239-4544-B2E5-E9EBBB28CC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "存款计算器", "存款计算器\存款计算器.csproj", "{1158DFF7-1F7E-4854-9D88-141AF9DFA003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -631,6 +633,14 @@ Global
 		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|x86.ActiveCfg = Release|Any CPU
 		{49C227B5-B239-4544-B2E5-E9EBBB28CC91}.Release|x86.Build.0 = Release|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Debug|x86.Build.0 = Debug|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Release|x86.ActiveCfg = Release|Any CPU
+		{1158DFF7-1F7E-4854-9D88-141AF9DFA003}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
