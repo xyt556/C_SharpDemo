@@ -131,6 +131,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "存款计算器", "存款�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "成绩统计", "成绩统计\成绩统计.csproj", "{E5A2A3BD-B081-40BD-A99B-1C481DB5185F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "成绩排序", "成绩排序\成绩排序.csproj", "{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -651,6 +653,14 @@ Global
 		{E5A2A3BD-B081-40BD-A99B-1C481DB5185F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5A2A3BD-B081-40BD-A99B-1C481DB5185F}.Release|x86.ActiveCfg = Release|Any CPU
 		{E5A2A3BD-B081-40BD-A99B-1C481DB5185F}.Release|x86.Build.0 = Release|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Debug|x86.Build.0 = Debug|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Release|x86.ActiveCfg = Release|Any CPU
+		{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
