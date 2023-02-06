@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "静态构造函数", "静�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "公制和英制的转换", "公制和英制的转换\公制和英制的转换.csproj", "{89C8AB45-2174-4E14-9F78-8A32364E2B26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "私有构造函数与公有构造函数", "私有构造函数与公有构造函数\私有构造函数与公有构造函数.csproj", "{3E006426-B971-44EC-A217-90E6EF79D9D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -681,6 +683,14 @@ Global
 		{89C8AB45-2174-4E14-9F78-8A32364E2B26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89C8AB45-2174-4E14-9F78-8A32364E2B26}.Release|x86.ActiveCfg = Release|Any CPU
 		{89C8AB45-2174-4E14-9F78-8A32364E2B26}.Release|x86.Build.0 = Release|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E006426-B971-44EC-A217-90E6EF79D9D6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
