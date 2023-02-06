@@ -1,3 +1,4 @@
+//包含排序算法。
 namespace 成绩排序
 {
     public partial class Form1 : Form
