@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "私有构造函数与公有
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "保护型构造函数", "保护型构造函数\保护型构造函数.csproj", "{18AAFC32-6568-43D3-BF89-330FE5C67F2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数的重载", "构造函数的重载\构造函数的重载.csproj", "{1EAB950D-C7A2-4C65-B671-B26D28716A00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -701,6 +703,14 @@ Global
 		{18AAFC32-6568-43D3-BF89-330FE5C67F2F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18AAFC32-6568-43D3-BF89-330FE5C67F2F}.Release|x86.ActiveCfg = Release|Any CPU
 		{18AAFC32-6568-43D3-BF89-330FE5C67F2F}.Release|x86.Build.0 = Release|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Debug|x86.Build.0 = Debug|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EAB950D-C7A2-4C65-B671-B26D28716A00}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
