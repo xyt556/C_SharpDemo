@@ -1,4 +1,5 @@
-﻿class MyClass
+﻿//测试
+class MyClass
 {
     static void Main(string[] args)
     {
