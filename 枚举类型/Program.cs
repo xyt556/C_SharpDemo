@@ -48,8 +48,9 @@ namespace test
             Console.WriteLine(++i);
             short x = 3, y = 5, z;
             z = (short)(x & y);  //按位与
-            Console.WriteLine("z={0}",z); 
-            Console.WriteLine();
+            Console.WriteLine("z={0}",z);
+            Console.WriteLine(x<<2);
+            Console.WriteLine(Math.Cos(90));
         }
     }
 }
