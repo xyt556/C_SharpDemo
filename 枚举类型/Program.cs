@@ -42,10 +42,14 @@ namespace test
             WriteGreeting(TimeofDay.Morning);
             WriteGreeting(TimeofDay.Afternoon);
             WriteGreeting(TimeofDay.Evening);
-<<<<<<<<< Temporary merge branch 1
-=========
-            
->>>>>>>>> Temporary merge branch 2
+            int i = 2;
+            Console.WriteLine(i++);
+            Console.WriteLine(i);
+            Console.WriteLine(++i);
+            short x = 3, y = 5, z;
+            z = (short)(x & y);  //按位与
+            Console.WriteLine("z={0}",z); 
+            Console.WriteLine();
         }
     }
 }
