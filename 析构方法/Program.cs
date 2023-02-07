@@ -21,6 +21,7 @@
             A y = new A(5);
             Console.WriteLine(sbyte.MinValue);
             Console.WriteLine(double.MaxValue);
+            Console.WriteLine("13==oxD:{0}",int.Equals(13,0xD));
         }
     }
 }
