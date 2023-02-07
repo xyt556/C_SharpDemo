@@ -49,7 +49,7 @@ namespace test
             short x = 3, y = 5, z;
             z = (short)(x & y);  //按位与
             Console.WriteLine("z={0}",z);
-            Console.WriteLine(x<<2);
+            Console.WriteLine(x<<2); //左移2位
             Console.WriteLine(Math.Cos(90));
         }
     }
