@@ -20,7 +20,7 @@
             A x = new A(3);
             A y = new A(5);
             Console.WriteLine(sbyte.MinValue);
-            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(Math.PI);
             Console.WriteLine("13==oxD:{0}",int.Equals(13,0xD));
         }
     }
