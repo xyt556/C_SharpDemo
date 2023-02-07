@@ -133,17 +133,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "成绩统计", "成绩统�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "成绩排序", "成绩排序\成绩排序.csproj", "{92E2AAF1-CA23-4BA9-A0D5-9B108844A418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "静态构造函数", "静态构造函数\静态构造函数.csproj", "{AD1FD905-01F1-4D19-A026-A6A671FC76C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "静态构造函数", "静态构造函数\静态构造函数.csproj", "{AD1FD905-01F1-4D19-A026-A6A671FC76C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "公制和英制的转换", "公制和英制的转换\公制和英制的转换.csproj", "{89C8AB45-2174-4E14-9F78-8A32364E2B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "公制和英制的转换", "公制和英制的转换\公制和英制的转换.csproj", "{89C8AB45-2174-4E14-9F78-8A32364E2B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "私有构造函数与公有构造函数", "私有构造函数与公有构造函数\私有构造函数与公有构造函数.csproj", "{3E006426-B971-44EC-A217-90E6EF79D9D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "私有构造函数与公有构造函数", "私有构造函数与公有构造函数\私有构造函数与公有构造函数.csproj", "{3E006426-B971-44EC-A217-90E6EF79D9D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "保护型构造函数", "保护型构造函数\保护型构造函数.csproj", "{18AAFC32-6568-43D3-BF89-330FE5C67F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "保护型构造函数", "保护型构造函数\保护型构造函数.csproj", "{18AAFC32-6568-43D3-BF89-330FE5C67F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数的重载", "构造函数的重载\构造函数的重载.csproj", "{1EAB950D-C7A2-4C65-B671-B26D28716A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "构造函数的重载", "构造函数的重载\构造函数的重载.csproj", "{1EAB950D-C7A2-4C65-B671-B26D28716A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "拷贝构造函数", "拷贝构造函数\拷贝构造函数.csproj", "{8A93BF4F-46E8-44CE-9152-DF6E94A28ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "拷贝构造函数", "拷贝构造函数\拷贝构造函数.csproj", "{8A93BF4F-46E8-44CE-9152-DF6E94A28ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举类型", "枚举类型\枚举类型.csproj", "{C9957DA6-A7E1-4A72-A041-1FC915250C9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -721,6 +723,14 @@ Global
 		{8A93BF4F-46E8-44CE-9152-DF6E94A28ED2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A93BF4F-46E8-44CE-9152-DF6E94A28ED2}.Release|x86.ActiveCfg = Release|Any CPU
 		{8A93BF4F-46E8-44CE-9152-DF6E94A28ED2}.Release|x86.Build.0 = Release|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9957DA6-A7E1-4A72-A041-1FC915250C9E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
