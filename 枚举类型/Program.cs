@@ -42,7 +42,11 @@ namespace test
             WriteGreeting(TimeofDay.Morning);
             WriteGreeting(TimeofDay.Afternoon);
             WriteGreeting(TimeofDay.Evening);
-            
+            int i;
+            i = 2;
+            Console.WriteLine(i++);
+            Console.WriteLine(i);
+            Console.WriteLine(++i);
         }
     }
 }
