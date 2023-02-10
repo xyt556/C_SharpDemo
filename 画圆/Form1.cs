@@ -40,7 +40,7 @@ namespace 画圆
                 if (dr == DialogResult.OK)
                 {
                     textBox1.ForeColor = colorDialog1.Color;
-                    textBox1.Font = fontDialog1.Font;
+                    //textBox1.Font = fontDialog1.Font;
                 }
                 if (df== DialogResult.OK)
                 {
