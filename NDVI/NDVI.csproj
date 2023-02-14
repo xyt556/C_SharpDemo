@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1D9114E-FCC6-49D0-9CFE-F48C99862E69}</ProjectGuid>
+    <ProjectGuid>{98CC15E2-AF6B-418D-A6CD-0C3FDC1AE16F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GdalExample</RootNamespace>
-    <AssemblyName>GdalExample</AssemblyName>
+    <RootNamespace>NDVI</RootNamespace>
+    <AssemblyName>NDVI</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,70 +1,47 @@
-﻿using OSGeo.OSR;
-using OSGeo.OGR;
-using System;
+﻿using OSGeo.OGR;
 
-namespace GdalExample
+namespace VectorDataCreationExample
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 初始化OGR
-            Ogr.RegisterAll();
-
+            // 初始化 OGR
+            //Ogr.RegisterAll();
+            //注册Ogr库  
+            string pszDriverName = "ESRI Shapefile";
+            OSGeo.OGR.Ogr.RegisterAll();
+            //调用对Shape文件读写的Driver接口  
+            OSGeo.OGR.Driver poDriver = OSGeo.OGR.Ogr.GetDriverByName(pszDriverName);
             // 创建数据源
-            string strDriverName = "ESRI Shapefile";
-            Driver oDriver = Ogr.GetDriverByName(strDriverName);
-            if (oDriver == null)
+            var dataSource = Ogr.Open("vector_data.shp", 1);
+            if (dataSource == null)
             {
-                Console.WriteLine("驱动不可用。");
-                return;
+                dataSource = poDriver.CreateDataSource("vector_data.shp", null);
             }
-
-            string strDataSource = "lines.shp";
-            DataSource oDS = oDriver.CreateDataSource(strDataSource, null);
-            if (oDS == null)
-            {
-                Console.WriteLine("创建数据源失败。");
-                return;
-            }
-
-            // 创建空间参考
-            SpatialReference oSRS = new SpatialReference("");
-            oSRS.ImportFromEPSG(4326);
 
             // 创建图层
-            string strLayer = "lines";
-            Layer oLayer = oDS.CreateLayer(strLayer, oSRS, wkbLineString, null);
-            if (oLayer == null)
-            {
-                Console.WriteLine("创建图层失败。");
-                return;
-            }
+            var layer = dataSource.CreateLayer("layer_name", null, wkbGeometryType.wkbPoint, null);
 
             // 创建字段
-            FieldDefn oFieldName = new FieldDefn("Name", FieldType.OFTString);
-            oFieldName.SetWidth(32);
-            oLayer.CreateField(oFieldName, 1);
+            var fieldDefinition = new FieldDefn("field_name", FieldType.OFTString);
+            fieldDefinition.SetWidth(32);
+            layer.CreateField(fieldDefinition, 1);
 
             // 创建要素
-            Feature oFeature = new Feature(oLayer.GetLayerDefn());
-            oFeature.SetField(0, "Line 1");
+            var feature = new Feature(layer.GetLayerDefn());
+            feature.SetField(0, "feature_name");
 
-            // 创建线段
-            LineString oLine = new LineString(2);
-            oLine.SetPoint(0, 0, 0);
-            oLine.SetPoint(1, 1, 1);
-            oFeature.SetGeometry(oLine);
+            // 创建几何形状
+            var point = new Geometry(wkbGeometryType.wkbPoint);
+            point.AddPoint(10, 10, 0);
+            feature.SetGeometry(point);
 
-            // 将要素写入图层
-            oLayer.CreateFeature(oFeature);
+            // 把要素写入图层
+            layer.CreateFeature(feature);
 
-            // 释放资源
-            oLine.Dispose();
-            oFeature.Dispose();
-            oDS.Dispose();
-
-            Console.WriteLine("矢量线图层创建成功。");
+            // 关闭数据源
+            dataSource.Dispose();
         }
     }
 }
