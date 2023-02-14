@@ -36,7 +36,12 @@ namespace DiscriminantAnalysisExample
             var svm = teacher.Learn(inputs, outputs);
 
             // 预测新样本的类别
-            int result = svm.Decide(-5, -2);
+            double[][] pre =
+            {
+                new double[] {5.0,2.0}
+            };
+                
+            int result = svm.Decide(pre);
 
             Console.WriteLine("预测结果：" + result);
 

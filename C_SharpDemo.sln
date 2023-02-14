@@ -187,6 +187,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfExample", "PdfExample\Pd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscriminantAnalysisExample", "DiscriminantAnalysisExample\DiscriminantAnalysisExample.csproj", "{0FD55EC3-5859-483F-8A8D-6D36912226F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleCalculator", "TriangleCalculator\TriangleCalculator.csproj", "{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -931,6 +933,14 @@ Global
 		{0FD55EC3-5859-483F-8A8D-6D36912226F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0FD55EC3-5859-483F-8A8D-6D36912226F4}.Release|x86.ActiveCfg = Release|Any CPU
 		{0FD55EC3-5859-483F-8A8D-6D36912226F4}.Release|x86.Build.0 = Release|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Debug|x86.Build.0 = Debug|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
