@@ -1,7 +1,7 @@
 ﻿using System;
 using OSGeo.OSR;
 using OSGeo.GDAL;
-using OSGeo.OGC.Ogr;
+using OSGeo.OGR;
 using System.Reflection.Emit;
 
 namespace Fishnet
