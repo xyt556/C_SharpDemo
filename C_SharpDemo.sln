@@ -153,13 +153,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "析构方法", "析构方�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "可空变量", "可空变量\可空变量.csproj", "{87F34F84-CE4F-4BB9-A54D-5FD161365583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "输入输出", "输入输出\输入输出.csproj", "{37E43795-A508-46D7-9516-456BC63718BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "输入输出", "输入输出\输入输出.csproj", "{37E43795-A508-46D7-9516-456BC63718BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld", "Helloworld\Helloworld.csproj", "{52B25F43-4809-47D8-B952-73E4176EF87F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld1", "Helloworld1\Helloworld1.csproj", "{4955CECB-D96D-420C-992C-533696A1E26A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类的定义", "类的定义\类的定义.csproj", "{0AFEB3A4-B0F4-4BA8-8EE4-77C7A24362B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P_BinaryTree", "P_BinaryTree\P_BinaryTree.csproj", "{A45F3C25-2E20-434A-B803-27973C587181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -801,6 +803,14 @@ Global
 		{0AFEB3A4-B0F4-4BA8-8EE4-77C7A24362B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0AFEB3A4-B0F4-4BA8-8EE4-77C7A24362B2}.Release|x86.ActiveCfg = Release|Any CPU
 		{0AFEB3A4-B0F4-4BA8-8EE4-77C7A24362B2}.Release|x86.Build.0 = Release|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Debug|x86.Build.0 = Debug|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Release|x86.ActiveCfg = Release|Any CPU
+		{A45F3C25-2E20-434A-B803-27973C587181}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
