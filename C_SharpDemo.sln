@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenAndRabbit", "ChickenAndRabbit\ChickenAndRabbit.csproj", "{74A043E5-7A3B-4000-82E2-A445A30EE464}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -841,6 +843,14 @@ Global
 		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|x86.ActiveCfg = Release|Any CPU
 		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|x86.Build.0 = Release|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Debug|x86.Build.0 = Debug|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|x86.ActiveCfg = Release|Any CPU
+		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
