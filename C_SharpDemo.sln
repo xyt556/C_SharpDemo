@@ -171,6 +171,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenAndRabbit", "Chicken
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorDataCreationExample", "VectorDataCreationExample\VectorDataCreationExample.csproj", "{54E1B036-040B-4797-AFB2-AEC8521DB7F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -851,6 +853,14 @@ Global
 		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF13BA03-5BD1-4152-A6CC-9D5432C4B011}.Release|x86.Build.0 = Release|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{54E1B036-040B-4797-AFB2-AEC8521DB7F5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
