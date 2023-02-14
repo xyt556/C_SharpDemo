@@ -167,6 +167,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphExample", "GraphExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{06C7D2DE-09F3-4BF9-B591-E4460371E43E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenAndRabbit", "ChickenAndRabbit\ChickenAndRabbit.csproj", "{74A043E5-7A3B-4000-82E2-A445A30EE464}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -831,6 +833,14 @@ Global
 		{06C7D2DE-09F3-4BF9-B591-E4460371E43E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06C7D2DE-09F3-4BF9-B591-E4460371E43E}.Release|x86.ActiveCfg = Release|Any CPU
 		{06C7D2DE-09F3-4BF9-B591-E4460371E43E}.Release|x86.Build.0 = Release|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Debug|x86.Build.0 = Debug|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|x86.ActiveCfg = Release|Any CPU
+		{74A043E5-7A3B-4000-82E2-A445A30EE464}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
