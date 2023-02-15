@@ -38,12 +38,16 @@ namespace DiscriminantAnalysisExample
             // 预测新样本的类别
             double[][] pre =
             {
-                new double[] {5.0,2.0}
+                new double[] {5.0,2.0},
+                new double[] {-3.0,-1.0}
             };
 
-            bool[] results = svm.Decide(pre);
-
-            Console.WriteLine("预测结果：" + results[0]);
+            bool[] results = svm.Decide(pre);//返回值是bool类型
+            for (int i = 0; i < results.Length; i++)
+            {
+                Console.WriteLine("预测结果：" + results[i]);
+            }
+            
 
             Console.ReadLine();
         }
