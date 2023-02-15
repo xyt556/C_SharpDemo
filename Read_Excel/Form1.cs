@@ -100,6 +100,8 @@ namespace Read_Excel
                     var subDirs = Directory.GetDirectories(folderDialog.SelectedPath);
                     var files = Directory.GetFiles(folderDialog.SelectedPath);
                     file1 = files;
+                    int txtFileCount = Directory.GetFiles(folderDialog.SelectedPath, "*.pdf").Length;
+                    textBox2.Text = txtFileCount.ToString();
                     // 创建根节点
                     var rootNode = new TreeNode(folderDialog.SelectedPath);
                     rootNode.Tag = folderDialog.SelectedPath;
