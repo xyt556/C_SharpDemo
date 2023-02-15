@@ -12,11 +12,27 @@ namespace Read_Excel
     {
         public string fileName;
         string[] file1;
+        string path;
         public Form1()
         {
             InitializeComponent();
         }
+        private int CountFiles(string path, string extension)
+        {
+            int count = 0;
 
+            // 统计当前目录下的文件数量
+            count += Directory.GetFiles(path, $"*{extension}").Length;
+
+            // 遍历子目录
+            foreach (string subDir in Directory.GetDirectories(path))
+            {
+                // 递归调用 CountFiles 函数
+                count += CountFiles(subDir, extension);
+            }
+
+            return count;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -95,7 +111,7 @@ namespace Read_Excel
                 {
                     // 清空TreeView
                     treeView1.Nodes.Clear();
-
+                    path = folderDialog.SelectedPath;
                     // 获取所选目录下的子目录和文件
                     var subDirs = Directory.GetDirectories(folderDialog.SelectedPath);
                     var files = Directory.GetFiles(folderDialog.SelectedPath);
@@ -140,6 +156,10 @@ namespace Read_Excel
 
                 // 输出结果
                 //Console.WriteLine($"目录 {path} 下的文件总大小为 {totalSize} 字节");
+                int count = CountFiles(path, ".pdf");
+
+                // 在文本框中显示结果
+                textBox2.Text = $"目录 {path} 及其子目录下共有 {count} 个 pdf 文件。";
                 textBox1.Text = (totalSize/1024.0).ToString()+"M";
             }
             catch (Exception ex)
