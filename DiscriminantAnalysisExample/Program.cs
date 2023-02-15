@@ -51,7 +51,15 @@ namespace WaterQuality
             // 显示预测结果
             for (int i = 0; i < predicted.Length; i++)
             {
-                Console.WriteLine("预测结果：" + predicted[i]);
+                Console.Write("预测结果：" + predicted[i]);
+                if (expected[i] == predicted[i])
+                {
+                    Console.WriteLine("\t预测正确！");
+                }
+                else
+                {
+                    Console.WriteLine("\t预测不正确！");
+                }
             }
             
 
