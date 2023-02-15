@@ -189,6 +189,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscriminantAnalysisExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleCalculator", "TriangleCalculator\TriangleCalculator.csproj", "{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcelExample", "ReadExcelExample\ReadExcelExample.csproj", "{122A04B2-B41D-49C6-B777-108711AEEF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read_Excel", "Read_Excel\Read_Excel.csproj", "{4C2F02A1-0568-4AD2-922B-C73461ACFB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -941,6 +945,22 @@ Global
 		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|x86.ActiveCfg = Release|Any CPU
 		{1086D873-1B83-4A8A-BE1E-0A64B61BF92C}.Release|x86.Build.0 = Release|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{122A04B2-B41D-49C6-B777-108711AEEF0B}.Release|x86.Build.0 = Release|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Debug|x86.Build.0 = Debug|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Release|x86.ActiveCfg = Release|Any CPU
+		{4C2F02A1-0568-4AD2-922B-C73461ACFB17}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

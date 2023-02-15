@@ -40,7 +40,7 @@ namespace WaterQuality
             var inputsTest = new double[][]
             {
                 new double[] {7.4, 5.5, 2.0, 8.0, 200.0},
-                new double[] {6.5, 5.5, 2.5, 8.0, 180.0},
+                new double[] {6.7, 5.5, 2.4, 6.5, 180.0},
                 new double[] {7.2, 5.5, 2.3, 7.5, 205.0},
             };
             var expected = new int[] { 1, 0, 1 };
