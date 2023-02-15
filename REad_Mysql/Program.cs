@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace REad_Mysql
+namespace ReadMySQL
 {
     internal static class Program
     {

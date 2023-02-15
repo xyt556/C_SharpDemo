@@ -14,7 +14,7 @@ namespace ReadMySQL
 
         public Form1()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
             // 初始化连接
             string connectionString = "server=localhost;user id=root;password=123456;database=test;";
