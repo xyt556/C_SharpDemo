@@ -40,10 +40,10 @@ namespace DiscriminantAnalysisExample
             {
                 new double[] {5.0,2.0}
             };
-                
-            int result = svm.Decide(pre);
 
-            Console.WriteLine("预测结果：" + result);
+            bool[] results = svm.Decide(pre);
+
+            Console.WriteLine("预测结果：" + results[0]);
 
             Console.ReadLine();
         }
