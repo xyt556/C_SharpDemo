@@ -67,6 +67,7 @@
             this.btnIdentify.TabIndex = 3;
             this.btnIdentify.Text = "判别";
             this.btnIdentify.UseVisualStyleBackColor = true;
+            this.btnIdentify.Click += new System.EventHandler(this.btnIdentify_Click_1);
             // 
             // txtFilePath
             // 
@@ -83,8 +84,9 @@
             this.btnSelectFile.TabIndex = 5;
             this.btnSelectFile.Text = "打开";
             this.btnSelectFile.UseVisualStyleBackColor = true;
+            this.btnSelectFile.Click += new System.EventHandler(this.btnSelectFile_Click_1);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,7 +97,7 @@
             this.Controls.Add(this.txtTurbidity);
             this.Controls.Add(this.txtPH);
             this.Controls.Add(this.lblResult);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
