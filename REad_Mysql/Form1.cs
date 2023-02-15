@@ -60,5 +60,10 @@ namespace ReadMySQL
             // 关闭连接
             connection.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

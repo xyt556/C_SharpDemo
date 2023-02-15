@@ -11,6 +11,7 @@ namespace Read_Excel
     public partial class Form1 : Form
     {
         public string fileName;
+        string[] file1;
         public Form1()
         {
             InitializeComponent();
@@ -79,6 +80,70 @@ namespace Read_Excel
 
                 // 将DataTable绑定到dataGridView
                 dataGridView.DataSource = dataTable;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            long totalSize = 0; // 总文件大小
+
+
+            // 使用FolderBrowserDialog打开目录选择对话框
+            using (var folderDialog = new FolderBrowserDialog())
+            {
+                if (folderDialog.ShowDialog() == DialogResult.OK)
+                {
+                    // 清空TreeView
+                    treeView1.Nodes.Clear();
+
+                    // 获取所选目录下的子目录和文件
+                    var subDirs = Directory.GetDirectories(folderDialog.SelectedPath);
+                    var files = Directory.GetFiles(folderDialog.SelectedPath);
+                    file1 = files;
+                    // 创建根节点
+                    var rootNode = new TreeNode(folderDialog.SelectedPath);
+                    rootNode.Tag = folderDialog.SelectedPath;
+
+                    // 将子目录添加为根节点的子节点
+                    foreach (var subDir in subDirs)
+                    {
+                        var subNode = new TreeNode(Path.GetFileName(subDir));
+                        subNode.Tag = subDir;
+                        rootNode.Nodes.Add(subNode);
+                    }
+
+                    // 将文件添加为根节点的子节点
+                    foreach (var file in files)
+                    {
+                        var fileNode = new TreeNode(Path.GetFileName(file));
+                        fileNode.Tag = file;
+                        rootNode.Nodes.Add(fileNode);
+                    }
+
+                    // 将根节点添加到TreeView中
+                    treeView1.Nodes.Add(rootNode);
+                }
+            }
+            try
+            {
+                // 获取目录中的所有文件
+                //string[] files = Directory.GetFiles(subDirs, "*", SearchOption.AllDirectories);
+
+                // 遍历文件，计算总文件大小
+                foreach (string file in file1)
+                {
+                    FileInfo fileInfo = new FileInfo(file);
+                    totalSize += fileInfo.Length;
+                }
+
+                // 输出结果
+                //Console.WriteLine($"目录 {path} 下的文件总大小为 {totalSize} 字节");
+                textBox1.Text = (totalSize/1024.0).ToString()+"M";
+            }
+            catch (Exception ex)
+            {
+                //Console.WriteLine(ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
     }
