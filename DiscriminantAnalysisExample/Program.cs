@@ -1,51 +1,57 @@
 ﻿using System;
-using System.Linq;
-using Accord.MachineLearning.VectorMachines;
-using Accord.MachineLearning.VectorMachines.Learning;
-using Accord.Statistics.Kernels;
+using Accord.MachineLearning.DecisionTrees;
+using Accord.MachineLearning.DecisionTrees.Learning;
+using Accord.Math.Optimization.Losses;
+using Accord.Statistics.Filters;
 
-namespace DiscriminantAnalysisExample
+namespace WaterQuality
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 数据集，这里以二维数据为例
+            // 输入数据集
             double[][] inputs =
             {
-                new double[] { -5, -2 },
-                new double[] { -5, -5 },
-                new double[] {  2,  1 },
-                new double[] {  1,  1 },
-                new double[] {  1,  2 },
-                new double[] {  3,  4 },
+                new double[] {7.0, 5.5, 2.0, 8.0, 200.0},
+                new double[] {7.1, 6.0, 2.5, 9.0, 220.0},
+                new double[] {6.0, 5.0, 2.2, 7.5, 180.0},
+                new double[] {6.5, 5.8, 2.3, 8.0, 190.0},
+                new double[] {7.2, 5.5, 2.1, 8.5, 205.0},
+                new double[] {6.8, 5.5, 2.4, 7.5, 200.0},
+                new double[] {7.5, 6.0, 2.5, 8.0, 230.0},
+                new double[] {6.9, 5.5, 2.6, 8.0, 220.0},
+                new double[] {7.3, 6.2, 2.0, 8.5, 210.0},
+                new double[] {7.1, 5.5, 2.2, 8.0, 200.0},
+                new double[] {7.2, 5.7, 2.3, 7.5, 210.0},
+                new double[] {6.7, 5.5, 2.4, 8.5, 180.0},
             };
 
+            // 输出数据集
             int[] outputs =
             {
-                -1, -1, 1, 1, 1, 1
+                1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0
             };
 
-            // 实例化支持向量机
-            var teacher = new SequentialMinimalOptimization<Gaussian>()
+            // 将数据集分为训练集和测试集
+            var teacher = new C45Learning();
+            var tree = teacher.Learn(inputs, outputs);
+
+            var inputsTest = new double[][]
             {
-                Complexity = 100
+                new double[] {7.4, 5.5, 2.0, 8.0, 200.0},
+                new double[] {6.5, 5.5, 2.5, 8.0, 180.0},
+                new double[] {7.2, 5.5, 2.3, 7.5, 205.0},
             };
+            var expected = new int[] { 1, 0, 1 };
 
-            // 训练判别模型
-            var svm = teacher.Learn(inputs, outputs);
+            // 预测
+            int[] predicted = tree.Decide(inputsTest);
 
-            // 预测新样本的类别
-            double[][] pre =
+            // 显示预测结果
+            for (int i = 0; i < predicted.Length; i++)
             {
-                new double[] {5.0,2.0},
-                new double[] {-3.0,-1.0}
-            };
-
-            bool[] results = svm.Decide(pre);//返回值是bool类型
-            for (int i = 0; i < results.Length; i++)
-            {
-                Console.WriteLine("预测结果：" + results[i]);
+                Console.WriteLine("预测结果：" + predicted[i]);
             }
             
 
