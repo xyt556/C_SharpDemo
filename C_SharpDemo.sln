@@ -197,6 +197,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadMySQL", "REad_Mysql\Rea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSourceIdentification", "WaterSourceIdentification\WaterSourceIdentification.csproj", "{607BD957-F6F7-4BDF-9BD4-CE842429CA09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyApp", "MultiplyApp\MultiplyApp.csproj", "{F9F3A07E-0063-491A-BF32-932D53FA887E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -981,6 +983,14 @@ Global
 		{607BD957-F6F7-4BDF-9BD4-CE842429CA09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{607BD957-F6F7-4BDF-9BD4-CE842429CA09}.Release|x86.ActiveCfg = Release|Any CPU
 		{607BD957-F6F7-4BDF-9BD4-CE842429CA09}.Release|x86.Build.0 = Release|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Debug|x86.Build.0 = Debug|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F9F3A07E-0063-491A-BF32-932D53FA887E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
