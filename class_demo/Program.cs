@@ -34,10 +34,12 @@ namespace class_demo
         static void Main(string[] args)
         {
             // 创建Person对象
-            Person p = new Person("Tom", 20);
+            Person p1 = new Person("Tom", 20);
+            Person p2 = new Person("xyt", 30);
 
             // 调用Person对象的SayHello方法
-            p.SayHello();
+            p1.SayHello();
+            p2.SayHello();
         }
     }
 }
