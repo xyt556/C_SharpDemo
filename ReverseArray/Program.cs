@@ -29,7 +29,7 @@ namespace ReverseArray
         }
         static void Reverse1(int[] arr)
         {
-            int len = arr.Length;   //求数组的长度  for (int i = 0; i < len / 2; i++)
+            int len = arr.Length;   //求数组的长度
             for (int i = 0; i < len / 2; i++)
             { 
                 int temp;
@@ -44,7 +44,7 @@ namespace ReverseArray
             int[] arr = { 1, 2, 3, 4, 5 };
             Console.WriteLine("数组初值：");
             PrintArr(arr); 
-            Reverse1(arr);
+            Reverse(arr);
             Console.WriteLine("逆置后的数组值：");
             PrintArr(arr);
 
