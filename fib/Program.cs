@@ -27,11 +27,13 @@ namespace fib
             int sum = 0;  // 前n项和
             for (int i = 0; i <= n; i++)
             {
+                Console.Write(fib[i]+"\t");
                 sum += fib[i];
             }
-
+            Console.WriteLine();
             Console.WriteLine("斐波那契数列的第{0}项为：{1}", n, fib[n]);
             Console.WriteLine("斐波那契数列的前{0}项和为：{1}", n, sum);
+            Console.ReadKey();
         }
     }
 }
