@@ -44,6 +44,7 @@
             this.num1TextBox.Name = "num1TextBox";
             this.num1TextBox.Size = new System.Drawing.Size(100, 21);
             this.num1TextBox.TabIndex = 0;
+            this.num1TextBox.Text = "23";
             // 
             // num2TextBox
             // 

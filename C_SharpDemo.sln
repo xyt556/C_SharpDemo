@@ -209,6 +209,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_demo", "struct_demo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string_demo", "string_demo\string_demo.csproj", "{6CC8012C-023B-4D0C-AC5F-1D811167B182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test1", "..\..\新建文件夹\test1\test1.csproj", "{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fib", "fib\fib.csproj", "{51CC93F7-6F22-4620-A1B9-2189D629EB32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1041,6 +1045,22 @@ Global
 		{6CC8012C-023B-4D0C-AC5F-1D811167B182}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CC8012C-023B-4D0C-AC5F-1D811167B182}.Release|x86.ActiveCfg = Release|Any CPU
 		{6CC8012C-023B-4D0C-AC5F-1D811167B182}.Release|x86.Build.0 = Release|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Debug|x86.Build.0 = Debug|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8EA0C52-8FDC-492B-8AF6-9C272C4C6AA7}.Release|x86.Build.0 = Release|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Debug|x86.Build.0 = Debug|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|x86.ActiveCfg = Release|Any CPU
+		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
