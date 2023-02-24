@@ -213,6 +213,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test1", "..\..\新建文件
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fib", "fib\fib.csproj", "{51CC93F7-6F22-4620-A1B9-2189D629EB32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1061,6 +1063,14 @@ Global
 		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|x86.ActiveCfg = Release|Any CPU
 		{51CC93F7-6F22-4620-A1B9-2189D629EB32}.Release|x86.Build.0 = Release|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Debug|x86.Build.0 = Debug|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DDD126A-686C-48EB-B6AC-D2EB53C76A2B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
