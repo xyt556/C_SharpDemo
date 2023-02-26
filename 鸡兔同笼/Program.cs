@@ -15,6 +15,7 @@ namespace program
         {
             string t;
             int m, n, x = -1, y = -1;
+            Console.WriteLine("请输入头的个数和脚的个数，用空格隔开：");
             t = Console.ReadLine();
             string[] st = t.Split(' ');//借助Split方法将字符串按照空格进行切分
             m = Convert.ToInt32(st[0]);//第一个子串转换后是m的值
@@ -25,7 +26,7 @@ namespace program
                 y = n / 2 - m;
             }
             if (x >= 0 && y >= 0)//仅当鸡和兔的数量都不是负数时才是正确的解
-                Console.WriteLine("{0} {1}", x, y);
+                Console.WriteLine("鸡有{0}只，兔有{1}只。", x, y);
             else
                 Console.WriteLine("Error");
         }
