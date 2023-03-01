@@ -44,7 +44,7 @@
             this.num1TextBox.Name = "num1TextBox";
             this.num1TextBox.Size = new System.Drawing.Size(100, 21);
             this.num1TextBox.TabIndex = 0;
-            this.num1TextBox.Text = "23";
+            this.num1TextBox.Text = "2.3";
             // 
             // num2TextBox
             // 
@@ -52,6 +52,7 @@
             this.num2TextBox.Name = "num2TextBox";
             this.num2TextBox.Size = new System.Drawing.Size(100, 21);
             this.num2TextBox.TabIndex = 1;
+            this.num2TextBox.Text = "3.3";
             // 
             // multiplyButton
             // 

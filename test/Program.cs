@@ -1,28 +1,47 @@
 ﻿using System;
-class Program
+namespace Calculator
 {
-    static void Main(string[] args)
+    class Program
     {
-        double distance; // 行驶距离，单位为公里
-        double cost = 0; // 车费，单位为元
+        static void Main(string[] args)
+        {
+            double operand1, operand2, result = 0;
+            char op;
 
-        Console.Write("请输入行驶距离（公里）：");
-        distance = double.Parse(Console.ReadLine());
-        distance=Math.Ceiling(distance);// 向上取整
-        if (distance <= 2)
-        {
-            cost = 7;
-        }
-        else if (distance <= 15)
-        {
-            cost = 7 + (distance - 2) * 1.5;
-        }
-        else
-        {
-            cost = 7 + 13 * 1.5 + (distance - 15) * 2.1;
-        }
+            Console.Write("Enter the first operand: ");
+            operand1 = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("您应该支付的车费为{0:f2}元：" , cost);
-        Console.ReadLine();
+            Console.Write("Enter the operator (+, -, *, /): ");
+            op = char.Parse(Console.ReadLine());
+
+            Console.Write("Enter the second operand: ");
+            operand2 = double.Parse(Console.ReadLine());
+
+            switch (op)
+            {
+                case '+':
+                    result = operand1 + operand2;
+                    break;
+                case '-':
+                    result = operand1 - operand2;
+                    break;
+                case '*':
+                    result = operand1 * operand2;
+                    break;
+                case '/':
+                    if (operand2 == 0)
+                    {
+                        Console.WriteLine("Error: division by zero");
+                        return;
+                    }
+                    result = operand1 / operand2;
+                    break;
+                default:
+                    Console.WriteLine("Error: invalid operator");
+                    return;
+            }
+
+            Console.WriteLine($"{operand1} {op} {operand2} = {result}");
+        }
     }
 }
