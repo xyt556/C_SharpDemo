@@ -1,47 +1,44 @@
 ﻿using System;
-namespace Calculator
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int[][] scores = new int[3][];
+        scores[0] = new int[] { 75, 80, 90 };
+        scores[1] = new int[] { 85, 95 };
+        scores[2] = new int[] { 65, 70, 75, 80 };
+
+        Console.WriteLine("学生的成绩是：");
+        for (int i = 0; i < scores.Length; i++)
         {
-            double operand1, operand2, result = 0;
-            char op;
-
-            Console.Write("Enter the first operand: ");
-            operand1 = double.Parse(Console.ReadLine());
-
-            Console.Write("Enter the operator (+, -, *, /): ");
-            op = char.Parse(Console.ReadLine());
-
-            Console.Write("Enter the second operand: ");
-            operand2 = double.Parse(Console.ReadLine());
-
-            switch (op)
+            Console.Write("第{0}个学生的成绩是：", i + 1);
+            for (int j = 0; j < scores[i].Length; j++)
             {
-                case '+':
-                    result = operand1 + operand2;
-                    break;
-                case '-':
-                    result = operand1 - operand2;
-                    break;
-                case '*':
-                    result = operand1 * operand2;
-                    break;
-                case '/':
-                    if (operand2 == 0)
-                    {
-                        Console.WriteLine("Error: division by zero");
-                        return;
-                    }
-                    result = operand1 / operand2;
-                    break;
-                default:
-                    Console.WriteLine("Error: invalid operator");
-                    return;
+                Console.Write("{0} ", scores[i][j]);
             }
-
-            Console.WriteLine($"{operand1} {op} {operand2} = {result}");
+            Console.WriteLine();
         }
+
+        double[] avgScores = new double[scores.Length];
+        double totalAvgScore = 0.0;
+        for (int i = 0; i < scores.Length; i++)
+        {
+            int sum = 0;
+            for (int j = 0; j < scores[i].Length; j++)
+            {
+                sum += scores[i][j];
+            }
+            avgScores[i] = (double)sum / scores[i].Length;
+            totalAvgScore += avgScores[i];
+        }
+
+        Console.WriteLine("每个学生的平均分是：");
+        for (int i = 0; i < avgScores.Length; i++)
+        {
+            Console.WriteLine("第{0}个学生的平均分是：{1:F2}", i + 1, avgScores[i]);
+        }
+
+        Console.WriteLine("所有学生的平均分是：{0:F2}", totalAvgScore / avgScores.Length);
     }
 }
