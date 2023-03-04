@@ -219,6 +219,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "杨辉三角1", "杨辉三�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_p", "Console_p\Console_p.csproj", "{AFB03185-D342-4589-A245-D96DB7B799E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcel_Cal", "ReadExcel_Cal\ReadExcel_Cal.csproj", "{0AFAE046-0A27-435F-8D78-D5F08614F0E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1091,6 +1093,14 @@ Global
 		{AFB03185-D342-4589-A245-D96DB7B799E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AFB03185-D342-4589-A245-D96DB7B799E4}.Release|x86.ActiveCfg = Release|Any CPU
 		{AFB03185-D342-4589-A245-D96DB7B799E4}.Release|x86.Build.0 = Release|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Debug|x86.Build.0 = Debug|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Release|x86.ActiveCfg = Release|Any CPU
+		{0AFAE046-0A27-435F-8D78-D5F08614F0E6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
